@@ -1,13 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/gcloud'
-  args:
-  - 'run'
-  - 'deploy'
-  - 'cloudrunservice'
-  - '--image'
-  - 'gcr.io/gcbdocs/hello'
-  - '--region'
-  - 'us-central1'
-  - '--platform'
-  - 'managed'
-  - '--allow-unauthenticated'
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google/com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'cloudrunservice', '--image', 'gcr.io/gcbdocs/hello', '--region', 'us-central1', '--platform', 'managed']
