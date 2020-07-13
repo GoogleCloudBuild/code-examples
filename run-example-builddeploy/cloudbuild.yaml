@@ -6,7 +6,8 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/$PROJECT_ID/myimage']
 # Deploy container image to Cloud Run
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['run', 'deploy', 'myservice', '--image', 'gcr.io/$PROJECT_ID/myimage', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
+- name: 'gcr.io/google/com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'myservice', '--image', 'gcr.io/$PROJECT_ID/myimage', '--region', 'us-central1', '--platform', 'managed']
 images:
 - gcr.io/$PROJECT_ID/myimage
