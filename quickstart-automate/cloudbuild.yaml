@@ -1,3 +1,3 @@
 steps:
   - name: golang
-    args: ['go', 'run', 'main.go']
+    args: ['go', 'run', 'quickstart-automate/main.go']
