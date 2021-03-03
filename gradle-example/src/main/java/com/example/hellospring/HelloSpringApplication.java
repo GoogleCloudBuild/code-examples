@@ -59,7 +59,7 @@ public class HelloSpringApplication implements CommandLineRunner {
 		"     YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY                  bbbbbbbbbbbbbbbbb      \n"+
 		"    YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY                    bbbbbbbbbbbbbbbbbb     \n"+
 		"   YYYYYYYYYYYYYYYYY        YYYYYYY                          bbbbbbbbbbbbbbb    \n"+
-		"  YYYYYYYYYYYYYYY              YY                               bbbbbbbbbbbbb   \n"+
+		"  YYYYYYYYYYYYYYY              Y                               bbbbbbbbbbbbb   \n"+
 		"  YYYYYYYYYYYYYY                                                 bbbbbbbbbbbbb  \n"+
 		"  YYYYYYYYYYYYY                                                  bbbbbbbbbbbbb  \n"+
 		"  YYYYYYYYYYYYY                                                  bbbbbbbbbbbbb  \n"+
