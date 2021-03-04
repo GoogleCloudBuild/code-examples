@@ -1,3 +1,2 @@
-# code-examples
-Code examples used in the official Cloud Build documentation
-https://cloud.google.com/build/docs/
+# Samples Moved
+Samples have been moved to [GoogleCloudPlatform/cloud-build-samples](https://github.com/GoogleCloudPlatform/cloud-build-samples)
