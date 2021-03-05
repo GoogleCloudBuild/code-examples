@@ -1,1 +1,1 @@
-Code examples for invoking a build
+Code example used in Automate quickstart https://cloud.google.com/build/docs/quickstart-automate
